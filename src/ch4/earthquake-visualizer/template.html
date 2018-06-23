@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+ ! Excerpted from "Reactive Programming with RxJS 5",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/smreactjs5 for more book information.
+-->
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>Earthquake Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css" />
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Location</th>
+        <th>Magnitude</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody id="quakes_info">
+    </tbody>
+  </table>
+
+  <div id="tweet_container"></div>
+
+</body>
+
+</html>
